@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(212, 214, 214);
+    font-family:'Trebuchet MS', cursive;
+    font-size: 20px;
+}
+h1,h2,h3{
+    text-align: center;
+}
+#errors{
+    color: rgb(145, 4, 4);
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+form, .formData{
+    width: 450px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    background-color:rgb(234, 232, 228);
+    border-radius: 20px;
+}
+label{
+    width:250px;
+    display: inline-block;
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(175, 193, 221);
+    font-family:'Gill Sans', cursive;
+    border: 1.5px solid #000; 
+    padding: 2px;
+    height: 40px;
+    border-radius: 8px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px #241d43e0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+} 
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+} 
+table th {
+    background-color: #cac8c8;
+} 
+#formResult {
+    font-size: 18px;
+  }

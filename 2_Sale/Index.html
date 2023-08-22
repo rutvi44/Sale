@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2_Garage Sale</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+    <!-- Title for the page -->
+    <h1>KWC Garage Sale!!</h1>
+
+    <h2>Raising Money to the frontline fund</h2>
+
+    <!-- creating a form -->
+    <form name="myform" method="post" onsubmit="return formGarageSale()" action="">
+
+    <label>Name</label>
+    <input id="name" placeholder="First Last" type="text" name="name"><br/>
+
+    <label>Email</label>
+    <input id="email" placeholder="email@domain.com" type="email" name="email"><br/>
+
+    <label>Credit Card Number</label>
+    <input id="creditCard" placeholder="xxxx-xxxx-xxxx-xxxx" type="text" name="creditCard"><br/>
+
+    <label>Credit Card Expiry Month</label>
+    <input id="expiryMonth" placeholder="MMM" type="text" name="expiryMonth"><br/>
+
+    <label>Credit Card Expiry Year</label>
+    <input id="expiryDate" placeholder="yyyy" type="year" name="expiryDate"><br/>
+
+    <h3>Buy Generously</h3>
+
+    <label>Number of water Bottles($5)</label>
+    <input id="bottles" placeholder="10" type="text" name="bottles"><br/>
+
+    <label>Number of Caps($20)</label>
+    <input id="caps" placeholder="10" type="text" name="caps"><br/>
+
+    <label>Number of pens($2)</label>
+    <input id="pens" placeholder="10" type="text" name="pens"><br/>
+
+    <label>Number of Candy Bags($20)</label>
+    <input id="candy" placeholder="10" type="text" name="candy"><br/>
+
+    <label>Number of Cup Cakes($3)</label>
+    <input id="cakes" placeholder="10" type="text" name="cakes"><br/>
+
+    <br/><br/>
+
+    <!-- Submit button of the Form -->
+    <input type="submit" value="Submit"> 
+
+    <!-- to Print errors -->
+    <p id="errors"></p> 
+
+    </form>
+
+    <!-- This is the place where receipt generating -->
+    <div class="formData">
+        <h2 id="formResult">Thank You!!</h2>
+    </div>
+</body>
+</html>
